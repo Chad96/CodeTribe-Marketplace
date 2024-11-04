@@ -1,0 +1,218 @@
+// User Registration
+function registerUser() {
+    // Handle input changes as user fills out the form
+    function handleInputChange(event) {
+        // Update the corresponding field in state
+    }
+
+    // Validate the form fields
+    function validateForm() {
+        // Check if all fields are filled and email format is correct
+    }
+
+    // Encrypt the user's password
+    function encryptPassword(password) {
+        // Return encrypted password
+    }
+
+    // Send user data to JSON server
+    function submitRegistration() {
+        // Encrypt password, validate form, and send POST request
+    }
+
+    // Initiate registration process
+    handleInputChange();
+    validateForm();
+    encryptPassword();
+    submitRegistration();
+}
+
+// User Login
+function loginUser() {
+    // Update state as user types username and password
+    function handleInputChange(event) {
+        // Update state for username and password
+    }
+
+    // Authenticate user credentials
+    function authenticateUser() {
+        // Send GET request to fetch user data and compare password
+    }
+
+    // Process login
+    handleInputChange();
+    authenticateUser();
+}
+
+// Profile Management
+function manageProfile() {
+    // Retrieve user profile from JSON server
+    function fetchProfile() {
+        // Send GET request and populate profile fields
+    }
+
+    // Allow user to edit profile details
+    function handleProfileUpdate() {
+        // Send PUT/PATCH request to update user data
+    }
+
+    // Manage profile actions
+    fetchProfile();
+    handleProfileUpdate();
+}
+
+// Protected Route Check
+function checkRouteProtection() {
+    // Verify login status
+    function checkLoginStatus() {
+        // Redirect if user is not logged in
+    }
+
+    // Check route access
+    checkLoginStatus();
+}
+
+// Add New Item
+function addItem() {
+    // Update form fields as the admin inputs item details
+    function handleInputChange(event) {
+        // Update form fields with new item details
+    }
+
+    // Ensure all required fields are filled
+    function validateItemData() {
+        // Validate item data before submission
+    }
+
+    // Submit item data to JSON server
+    function submitNewItem() {
+        // Send POST request with item details
+    }
+
+    // Add item actions
+    handleInputChange();
+    validateItemData();
+    submitNewItem();
+}
+
+// View Items
+function viewItems() {
+    // Retrieve all items from JSON server
+    function fetchItems() {
+        // Send GET request for all items
+    }
+
+    // Display items in the list
+    fetchItems();
+}
+
+// Edit Item
+function editItem() {
+    // Load item details for editing
+    function loadItemDetails(itemId) {
+        // Fetch item data and prefill form
+    }
+
+    // Update item details
+    function updateItemData() {
+        // Validate inputs and send PUT/PATCH request
+    }
+
+    // Execute edit actions
+    loadItemDetails();
+    updateItemData();
+}
+
+// Delete Item
+function deleteItem(itemId) {
+    // Confirm with user before deleting
+    function confirmDeletion() {
+        // Display confirmation prompt
+    }
+
+    // Remove item from JSON server
+    function removeItem() {
+        // Send DELETE request and update displayed items
+    }
+
+    // Perform deletion
+    confirmDeletion();
+    removeItem();
+}
+
+// Search and Filter
+function searchItems() {
+    // Filter items based on search query
+    function handleSearch(query) {
+        // Filter displayed list based on matching items
+    }
+
+    // Execute search functionality
+    handleSearch();
+}
+
+
+// API Utilities
+function apiUtils() {
+    // Generic GET request
+    function fetchData(endpoint) {
+        // Send GET request to the specified endpoint
+    }
+
+    // Generic POST request
+    function postData(endpoint, data) {
+        // Send POST request with provided data
+    }
+
+    // Generic PUT request
+    function putData(endpoint, data) {
+        // Send PUT request with updated data
+    }
+
+    // Generic DELETE request
+    function deleteData(endpoint) {
+        // Send DELETE request to remove item
+    }
+
+    // Export utility functions
+    return {
+        fetchData,
+        postData,
+        putData,
+        deleteData
+    };
+}
+
+// Item Card Display
+function displayItemCard() {
+    // Render card with item details
+    function renderCard(item) {
+        // Display item details on card
+    }
+
+    // Handle actions on card (like, share)
+    function handleCardActions() {
+        // Trigger card actions
+    }
+
+    // Display card
+    renderCard();
+    handleCardActions();
+}
+
+// Search Bar
+function searchBarComponent() {
+    // Update search input
+    function handleSearchInput(event) {
+        // Update search query in state
+    }
+
+    // Display search results
+    function displayResults() {
+        // Render filtered results based on search
+    }
+
+    // Initiate search actions
+    handleSearchInput();
+    displayResults();
+}
